@@ -1,0 +1,42 @@
+figure {
+  height: max-content;
+  width: max-content;
+}
+
+img {
+  height: auto;
+}
+
+main {
+  height: auto;
+  width: auto;
+}
+
+article {
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin: 20px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 50px;
+}
+
+/* CSS property for content section */
+.backpack_figure,
+.backpack_name,
+.backpack_features {
+  float: left;
+  padding: 50px;
+  margin: 50px;
+  text-align: justify;
+}
+
+li {
+  font-size: 30px;
+}
